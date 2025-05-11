@@ -1,5 +1,5 @@
-import { useCounter } from "@/contexts/counter";
-import { Box, Button, Heading, Text } from "@chakra-ui/react";
+import { useCounter } from '@/contexts/counter';
+import { Box, Button, Heading, Text } from '@chakra-ui/react';
 
 export const HomePage = () => {
   const { count, inc } = useCounter();

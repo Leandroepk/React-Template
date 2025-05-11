@@ -1,7 +1,10 @@
+import { Box, Heading, Text } from "@chakra-ui/react";
+
 export const HomePage = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <Box p="4">
+      <Heading>Bienvenido</Heading>
+      <Text>Esta es la página de inicio.</Text>
+    </Box>
   );
 };
